@@ -50,3 +50,30 @@ Le groupe a capitalisé 45,8 MMAD de frais préliminaires et de charges à répa
 Il s'agit d'un **retraitement de comparabilité**, non d'un ajustement non récurrent : le groupe prévoyant de passer de 33 à 62 établissements d'ici 2027, ces frais se reproduiront.
 
 *Limite : la nature détaillée des frais capitalisés et leur durée d'amortissement ne sont pas précisées dans le rapport.*
+
+## Méthode
+
+Sources exclusivement publiques : rapports financiers annuels 2023 et 2024, comptes consolidés, ETIC, rapport des commissaires aux comptes. Aucune donnée de data room.
+
+Toutes les hypothèses sont isolées dans des cellules dédiées du fichier Excel et documentées en regard de chaque ajustement. Le pont fait l'objet d'un contrôle de vraisemblance sur la marge normalisée.
+
+**Traitement du double comptage.** Les ajustements A1 et A3 portaient initialement sur le même phénomène — les coûts de démarrage des établissements neufs. La marge retenue dans A1 a été relevée de 18 % à 23 % afin que ces coûts ne soient déduits qu'une seule fois, dans A3.
+
+**Approche écartée.** Une première estimation par écart brut de chiffre d'affaires (2 954,0 − 1 907,3 = 1 046,7 MMAD) a été rejetée : le contrôle par la capacité litière montre que ce montant excède le potentiel annuel à pleine maturité des lits ouverts en 2024. La croissance organique du parc 2023, non isolable sur données publiques, en représente une part majeure.
+
+## Questions au vendeur
+
+Les points suivants n'ont pas pu être chiffrés sur données publiques et feraient l'objet d'une demande d'information :
+
+1. Communiquer, pour chaque établissement ouvert depuis 2022, la date d'ouverture, le taux d'occupation mensuel depuis l'ouverture et le chiffre d'affaires réalisé.
+2. Détailler le poste « Autres charges externes » (366,4 MMAD en 2024), en isolant les loyers et charges locatives.
+3. Communiquer le détail des baux conclus avec les sociétés liées et le montant des loyers en année pleine.
+4. Communiquer la balance âgée des créances clients (975,7 MMAD nets, soit 15 % du bilan) et la méthode de provisionnement retenue.
+5. Détailler la nature des frais préliminaires et charges à répartir capitalisés en 2024, ainsi que leur durée d'amortissement.
+
+## Fichier
+
+`Akdital_pont_EBITDA.xlsx` — trois onglets :
+
+- **AKDITAL** : données source sur trois exercices avec référence de page, et indicateurs financiers (FR, BFR, TN, DSO, DIO, marge d'EBITDA, taux de conversion, capex/dotations)
+- **Pont EBITDA** : construction du pont, zone de calcul par ajustement, scénarios et notes de méthode
